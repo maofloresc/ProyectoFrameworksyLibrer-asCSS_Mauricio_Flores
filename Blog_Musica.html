@@ -11,65 +11,134 @@
   </head>
   <body>
     <header>
-      <div class="Titulo">
-        <div class='row'>
-          <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4 text-left'>
-            <img class='logo-img' src='img/logo_musica.jpg'/>
-          </div>
-          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8 text-right'>
-            <div class='redes-sociales'>
-              Síguenos en nuestras <abbr title='Facebook, Instagran, Twitter'>redes sociales</abbr>
-              <img class='img-rounded img-social' src='img/fb.png'/>
-              <img class='img-rounded img-social' src='img/ig.png'/>
-              <img class='img-rounded img-social' src='img/tt.png'/>
+      <section class="container">
+
+        <div class="Titulo">
+          <div class='row'>
+            <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4 text-left'>
+              <img class='logo-img img-rounded' src='img/logo_musica.jpg'/>
+            </div>
+            <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8 text-right'>
+              <div class='redes-sociales'>
+                <!-- Síguenos en nuestras <abbr title='Facebook, Instagran, Twitter'>redes sociales</abbr> -->
+
+                <a href="#"><img class='img-rounded img-social' src='img/fb.png'/></a>
+                <a href="#"><img class='img-rounded img-social' src='img/ig.png'/></a>
+                <a href="#"><img class='img-rounded img-social' src='img/tt.png'/></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="Barra_Navegacion">
+      <section class="container">
         <div class="row">
-          <div class='col-xs-6 col-sm-6 col-md-6 col-lg-12'>
-            <nav>
-              <h4>
-                <a href="#">Inicio</a>
-                <a href="#">Artistas</a>
-                <a href="#">Grupos</a>
-                <a href="#">Top 10</a>
-                <a href="#">Letras</a>
-                <a href="#">Acordes</a>
-              </h4>
-            </nav>
+          <div class='col-xs-3 col-sm-6 col-md-9 col-lg-12'>
+            <div class="Barra_Navegacion btn-group btn-group-justified" role="group">
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Inicio</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Artistas</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Grupos</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Top 10</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Letras</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Acordes</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="Contenido">
-        <div class='row'>
-          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8'>
-            Contenido
-          </div>
-          <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>
-            Buscador
-          </div>
-        </div>
-
-        <div class="row">
-          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8'>
-            Contenido1
-          </div>
-          <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>
-            Buscador1
-          </div>
-        </div>
-
-        <div class="row">
-          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8'>
-            Contenido2
-          </div>
-        </div>
-      </div>
     </header>
+
+    <section class="container">
+      <div class="Contenido">
+
+        <div class="row">
+          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8'>
+            <div class="row">
+              <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                <h3>Titulo Contenido 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class='col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+                <img class='logo-img img-rounded' src='img/logo_musica.jpg'/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              </div>
+              <form action="">
+                <label for="Comentario"></label>
+                <textarea name="Comentario" placeholder="Comentario" rows="1" cols="100"></textarea>
+              </form>
+            </div>
+          </div>
+          <div class='col-xs-4 col-sm-4 col-md-4 col-lg-4'>
+            <div class="row">
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Buscar</span>
+                <input type="text" class="form-control" placeholder="Buscar Contenido" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="row">
+              <div class="panel panel-default">
+                <!-- List group -->
+                <ul class="list-group">
+                  <li class="list-group-item">Por Autor</li>
+                  <li class="list-group-item">Por Album</li>
+                  <li class="list-group-item">Por Año</li>
+                  <li class="list-group-item">Por Genero</li>
+                  <li class="list-group-item">Por Casa Discográfica</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class='col-xs-8 col-sm-8 col-md-8 col-lg-8'>
+            <div class="row">
+              <div class='col-xs-2 col-sm-2 col-md-2 col-lg-2'>
+                <img class='logo-img img-rounded' src='img/logo_musica.jpg'/>
+              </div>
+
+              <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                <h3>Titulo Contenido 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              </div>
+              <form action="">
+                <label for="Comentario"></label>
+                <textarea name="Comentario" placeholder="Comentario" rows="1" cols="100"></textarea>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
 
   </body>
 </html>
