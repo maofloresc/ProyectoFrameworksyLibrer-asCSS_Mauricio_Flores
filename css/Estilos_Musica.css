@@ -1,6 +1,8 @@
 .container
 {
   background: gray;
+  border-radius: 5px;
+
 }
 .Titulo
 {
@@ -34,4 +36,11 @@
 {
   width: 100%;
   height: 100%;
+}
+.Separador
+{
+  background: white;
+  border-radius: 20px;
+  width: 100%
+  height: 50px;
 }
