@@ -1,11 +1,11 @@
 .container
 {
-  background: grey;
+  background: red;
   border-radius: 5px;
 }
 .Titulo
 {
-  background: gray;
+  background: white;
 }
 .logo-img {
   width: 100px;
@@ -21,18 +21,29 @@
 }
 .Barra_Navegacion
 {
-  background: blue;
+  background: red;
   width: 100%;
   height: 50px;
 }
 .Barra_Navegacion a
 {
   background: red;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 .glyphicon-user
 {
   width: 100%;
   height: 100%;
+}
+.Contenido
+{
+  background-color: white;
+}
+.list-group
+{
+  padding: 20px;
+}
+.input-group
+{
+  padding: 20px;
 }
