@@ -7,5 +7,10 @@ body
   background-size: cover;
 }
 .fi-torso {
-   font-size: 40px
+   font-size: 40px;
+}
+.Menu_Izquierda
+{
+  list-style:none;
+  text-align: center;
 }
